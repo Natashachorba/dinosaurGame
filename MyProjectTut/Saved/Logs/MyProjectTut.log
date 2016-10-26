@@ -1,0 +1,866 @@
+﻿Log file open, 10/26/16 13:56:01
+LogInit:Display: Running engine for game: MyProjectTut
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2016.10.26-17.56.01:056][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2016.10.26-17.56.01:105][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.10.26-17.56.01:152][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.10.26-17.56.01:186][  0]LogInit: Object subsystem initialized
+[2016.10.26-17.56.01:192][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.10.26-17.56.01:192][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.10.26-17.56.01:192][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.10.26-17.56.01:192][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.10.26-17.56.01:192][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.10.26-17.56.01:192][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.10.26-17.56.01:194][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.26-17.56.01:194][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.26-17.56.01:220][  0]LogInit: Computer: HUANGE2T440S
+[2016.10.26-17.56.01:220][  0]LogInit: User: huange2
+[2016.10.26-17.56.01:220][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.10.26-17.56.01:220][  0]LogInit: High frequency timer resolution =2.630631 MHz
+[2016.10.26-17.56.01:221][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx) Virtual=131072.0GB
+[2016.10.26-17.56.01:222][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.26-17.56.01:222][  0]LogMemory: Process Physical Memory: 45.85 MB used, 45.85 MB peak
+[2016.10.26-17.56.01:222][  0]LogMemory: Process Virtual Memory: 22.30 MB used, 22.31 MB peak
+[2016.10.26-17.56.01:222][  0]LogMemory: Physical Memory: 3136.23 MB used, 7879.72 MB total
+[2016.10.26-17.56.01:222][  0]LogMemory: Virtual Memory: 284.26 MB used, 134217728.00 MB total
+[2016.10.26-17.56.01:263][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.10.26-17.56.01:263][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2016.10.26-17.56.01:265][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.10.26-17.56.01:265][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.10.26-17.56.01:265][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.10.26-17.56.01:275][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2016.10.26-17.56.01:289][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.26-17.56.01:386][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.10.26-17.56.01:507][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2016.10.26-17.56.01:508][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2016.10.26-17.56.01:749][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.10.26-17.56.08:191][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.26-17.56.09:552][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.26-17.56.09:776][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.26-17.56.09:919][  0]LogDerivedDataCache: Loaded boot cache 0.14s 39MB C:/Users/huange2/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.10.26-17.56.09:920][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/huange2/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2016.10.26-17.56.09:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.26-17.56.09:920][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.26-17.56.10:327][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.26-17.56.10:339][  0]LogDerivedDataCache: Using Local data cache path C:/Users/huange2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.26-17.56.11:309][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.26-17.56.11:309][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.26-17.56.12:464][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.26-17.56.12:666][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2016.10.26-17.56.14:464][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.26-17.56.14:912][  0]SourceControl: Info Source control is disabled
+[2016.10.26-17.56.14:912][  0]SourceControl: Info Source control is disabled
+[2016.10.26-17.56.14:912][  0]SourceControl: Info Source control is disabled
+[2016.10.26-17.56.14:912][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2016.10.26-17.56.14:913][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2016.10.26-17.56.14:945][  0]SourceControl: Info Source control is disabled
+[2016.10.26-17.56.15:296][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2016.10.26-17.56.15:296][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2016.10.26-17.56.15:404][  0]LogEngine: Initializing Engine...
+[2016.10.26-17.56.17:904][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.26-17.56.17:944][  0]LogInit: FAudioDevice initialized.
+[2016.10.26-17.56.18:032][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.26-17.56.18:069][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/huange2/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.10.26-17.56.18:080][  0]LogInit: Texture streaming: Enabled
+[2016.10.26-17.56.18:237][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.10.26-17.56.18:237][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2016.10.26-17.56.18:237][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2016.10.26-17.56.18:237][  0]LogAnalytics: SetUserId be1a7af1464861f6ddba04bee415b276|463913afb23b41a5a14be09da1d89350|0a229e6a-4a7f-4b2c-81af-6b756c59cc22
+[2016.10.26-17.56.18:237][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2016.10.26-17.56.18:284][  0]LogInit: Transaction tracking system initialized
+[2016.10.26-17.56.19:036][  0]BlueprintLog: New page: Editor Load
+[2016.10.26-17.56.19:164][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2016.10.26-17.56.19:166][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.10.26-17.56.21:516][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.26-17.56.22:995][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.26-17.56.24:436][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2016.10.26-17.56.24:438][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2016.10.26-17.56.24:614][  0]LogConsoleResponse:Display: 
+[2016.10.26-17.56.25:238][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.10.26-17.56.25:794][  0]SourceControl: Info Source control is disabled
+[2016.10.26-17.56.25:795][  0]Cmd: MAP LOAD FILE="../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.26-17.56.25:807][  0]LightingResults: New page: Lighting Build
+[2016.10.26-17.56.25:856][  0]MapCheck: New page: Map Check
+[2016.10.26-17.56.25:856][  0]LightingResults: New page: Lighting Build
+[2016.10.26-17.56.25:907][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E8817DA980
+[2016.10.26-17.56.26:005][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.26-17.56.30:750][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.26-17.56.34:821][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.26-17.56.34:824][  0]Cmd: MAP CHECKDEP
+[2016.10.26-17.56.34:824][  0]MapCheck: New page: ThirdPersonExampleMap - Oct 26, 2016, 9:56:34 AM
+[2016.10.26-17.56.35:135][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 309.586ms to complete.
+[2016.10.26-17.56.35:135][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 9.340
+[2016.10.26-17.56.35:553][  0]LogCollectionManager: Loaded 0 collections in 0.004890 seconds
+[2016.10.26-17.56.35:575][  0]LogContentBrowser: Native class hierarchy populated in 0.0223 seconds. Added 1696 classes and 261 folders.
+[2016.10.26-17.56.35:621][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0028 seconds. Added 1 classes and 2 folders.
+[2016.10.26-17.56.35:773][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.26-17.56.35:775][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2016.10.26-17.56.35:783][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.26-17.56.35:825][  0]LogLoad: Full Startup: 39.17 seconds (BP compile: 1.75 seconds)
+[2016.10.26-17.56.36:331][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2016.10.26-17.56.36:840][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2016.10.26-17.56.37:436][  0]LogRenderer:Warning: Reallocating scene render targets to support 1008x456 (Frame:3).
+[2016.10.26-17.56.40:685][ 15]LogAssetRegistry: Asset discovery search completed in 21.5324 seconds
+[2016.10.26-17.56.45:711][149]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Objects'
+[2016.10.26-17.56.46:232][166]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scenes'
+[2016.10.26-17.56.51:322][209]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Scenes/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Fire_5.ParticleSystemComponent0
+[2016.10.26-17.56.51:325][209]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Explosion.P_Explosion Component=/Game/Scenes/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Explosion_8.ParticleSystemComponent0
+[2016.10.26-17.56.51:333][209]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Scenes/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Fire2_12.ParticleSystemComponent0
+[2016.10.26-17.56.51:335][209]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust Component=/Game/Scenes/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Ambient_Dust_15.ParticleSystemComponent0
+[2016.10.26-17.56.51:443][209]Cmd: MAP LOAD FILE="../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Content/Scenes/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.26-17.56.51:444][209]LightingResults: New page: Lighting Build
+[2016.10.26-17.56.51:566][209]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2016.10.26-17.56.51:570][209]MapCheck: New page: Map Check
+[2016.10.26-17.56.51:570][209]LightingResults: New page: Lighting Build
+[2016.10.26-17.56.51:631][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E8F986E020
+[2016.10.26-17.56.51:925][209]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2016.10.26-17.56.51:925][209]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2016.10.26-17.56.51:939][209]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.26-17.56.55:075][209]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.26-17.56.55:218][209]Cmd: MAP CHECKDEP
+[2016.10.26-17.56.55:219][209]MapCheck: New page: ThirdPersonExampleMap - Oct 26, 2016, 9:56:55 AM
+[2016.10.26-17.56.55:619][209]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 399.41ms to complete.
+[2016.10.26-17.56.55:623][209]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.185
+[2016.10.26-17.57.10:618][549]LogRenderer:Warning: Reallocating scene render targets to support 1008x528 (Frame:410).
+[2016.10.26-17.57.26:735][270]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.10.26-17.57.26:735][270]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 26, 2016, 9:57:26 AM)
+[2016.10.26-17.57.26:830][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093724s)
+[2016.10.26-17.57.26:833][270]LogPlayLevel: PIE: World Init took: (0.003184s)
+[2016.10.26-17.57.26:833][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Scenes/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.097603s)
+[2016.10.26-17.57.26:940][270]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.26-17.57.26:952][270]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.26-17.57.26:966][270]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2016.10.26-17.57.26:966][270]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2016.10.26-17.57.26:987][270]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.26-13.57.26
+[2016.10.26-17.57.26:992][270]LogWorld: Bringing up level for play took: 0.038543
+[2016.10.26-17.57.27:000][270]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_ThirdPersonExampleMap 0.955
+[2016.10.26-17.57.58:990][542]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E8FB6FE700
+[2016.10.26-17.59.00:971][545]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.10.26-17.59.00:972][545]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 26, 2016, 9:59:00 AM)
+[2016.10.26-17.59.01:071][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064997s)
+[2016.10.26-17.59.01:074][545]LogPlayLevel: PIE: World Init took: (0.003390s)
+[2016.10.26-17.59.01:075][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Scenes/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.069318s)
+[2016.10.26-17.59.01:168][545]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.26-17.59.01:175][545]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.26-17.59.01:189][545]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2016.10.26-17.59.01:189][545]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2016.10.26-17.59.01:211][545]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.26-13.59.01
+[2016.10.26-17.59.01:214][545]LogWorld: Bringing up level for play took: 0.037409
+[2016.10.26-17.59.01:219][545]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_ThirdPersonExampleMap 1.173
+[2016.10.26-17.59.45:460][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E8FC9C85E0
+[2016.10.26-18.11.29:755][853]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2016.10.26-18.11.44:839][107]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.10.26-18.18.11:361][143]LogSavePackage: Save=6314.461426ms
+[2016.10.26-18.18.11:361][143]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/ThirdPersonExampleMap_Auto102944C1C476BBB3C1F3CB289D7BCAA67.tmp' to '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Autosaves/Game/Scenes/ThirdPersonExampleMap_Auto1.umap'
+[2016.10.26-18.18.11:375][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/ThirdPersonExampleMap' took 6.456
+[2016.10.26-18.18.11:375][143]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.456
+[2016.10.26-20.01.54:859][954]LogSavePackage: Save=7297.049805ms
+[2016.10.26-20.01.54:859][954]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/ThirdPersonExampleMap0EF8E6B24DC19C20793BEBBB3516E2A6.tmp' to '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Content/Scenes/ThirdPersonExampleMap.umap'
+[2016.10.26-20.01.54:925][954]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 7.597
+[2016.10.26-20.01.54:934][954]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.26-20.01.54:989][954]LightingResults: New page: Lighting Build
+[2016.10.26-20.01.55:101][954]LoadErrors: New page: Loading map: Template_Default.umap
+[2016.10.26-20.01.55:102][954]MapCheck: New page: Map Check
+[2016.10.26-20.01.55:102][954]LightingResults: New page: Lighting Build
+[2016.10.26-20.01.55:119][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E936845260
+[2016.10.26-20.01.55:211][954]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.26-20.01.55:214][954]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.26-20.01.55:233][954]Cmd: MAP CHECKDEP
+[2016.10.26-20.01.55:234][954]MapCheck: New page: Untitled_1 - Oct 26, 2016, 12:01:55 PM
+[2016.10.26-20.01.55:343][954]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.267ms to complete.
+[2016.10.26-20.01.55:343][954]LogFileHelpers: Loading map 'Template_Default' took 0.412
+[2016.10.26-20.02.07:425][425]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.10.26-20.02.28:857][189]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2016.10.26-20.02.28:871][189]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2016.10.26-20.02.28:887][189]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2016.10.26-20.02.28:900][189]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2016.10.26-20.02.28:915][189]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2016.10.26-20.02.28:931][189]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2016.10.26-20.02.28:946][189]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2016.10.26-20.02.28:963][189]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2016.10.26-20.02.28:979][189]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2016.10.26-20.02.28:994][189]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2016.10.26-20.02.29:008][189]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2016.10.26-20.02.29:025][189]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2016.10.26-20.02.29:042][189]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2016.10.26-20.02.29:058][189]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2016.10.26-20.02.29:075][189]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2016.10.26-20.02.29:092][189]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2016.10.26-20.02.29:704][190]Cmd: UpdateLandscapeEditorData
+[2016.10.26-20.02.44:843][693]Cmd: TRANSACTION UNDO
+[2016.10.26-20.02.44:843][693]LogEditorTransaction: Undo Creating New Landscape
+[2016.10.26-20.02.46:944][694]Cmd: UpdateLandscapeEditorData
+[2016.10.26-20.02.52:156][898]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.26-20.03.01:222][227]LogTexture:Display: Building textures: Texture2D_19 (G8)
+[2016.10.26-20.03.08:635][469]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2016.10.26-20.03.18:340][713]LogTexture:Display: Building textures: T_ground_Moss_D (AutoDXT)
+[2016.10.26-20.03.26:441][713]LogTexture:Display: Building textures: T_Ground_Moss_N (BC5)
+[2016.10.26-20.03.27:338][713]LogMaterial: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2016.10.26-20.04.33:822][669]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2016.10.26-20.04.33:839][669]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2016.10.26-20.04.33:856][669]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2016.10.26-20.04.33:869][669]LogTexture:Display: Building textures: Texture2D_23 (BGRA8)
+[2016.10.26-20.04.33:885][669]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2016.10.26-20.04.33:900][669]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.04.33:914][669]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.04.33:928][669]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2016.10.26-20.04.33:943][669]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2016.10.26-20.04.33:958][669]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.04.33:973][669]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.04.33:989][669]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2016.10.26-20.04.34:004][669]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.10.26-20.04.34:021][669]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2016.10.26-20.04.34:037][669]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2016.10.26-20.04.34:054][669]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2016.10.26-20.04.34:603][670]Cmd: UpdateLandscapeEditorData
+[2016.10.26-20.06.28:282][630]Cmd: TRANSACTION UNDO
+[2016.10.26-20.06.28:282][630]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2016.10.26-20.06.28:347][630]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.06.29:188][657]Cmd: TRANSACTION UNDO
+[2016.10.26-20.06.29:188][657]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.10.26-20.06.29:231][657]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.06.29:265][657]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.06.29:295][657]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.06.29:326][657]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.06.29:367][657]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.06.31:578][735]Cmd: TRANSACTION UNDO
+[2016.10.26-20.06.31:578][735]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.10.26-20.06.31:659][735]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.06.31:682][735]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.06.31:704][735]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.06.31:730][735]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.06.31:790][735]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.06.32:370][757]Cmd: TRANSACTION UNDO
+[2016.10.26-20.06.32:370][757]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.10.26-20.06.32:414][757]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.06.32:447][757]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.06.32:475][757]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.06.32:505][757]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.06.32:545][757]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.06.32:698][764]Cmd: TRANSACTION UNDO
+[2016.10.26-20.06.32:698][764]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.10.26-20.06.32:730][764]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.06.32:765][764]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.06.32:791][764]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.06.32:815][764]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.06.32:850][764]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.06.32:929][768]Cmd: TRANSACTION UNDO
+[2016.10.26-20.06.32:929][768]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.10.26-20.06.32:951][768]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.06.32:979][768]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.06.33:002][768]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.06.33:023][768]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.06.33:056][768]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.06.58:747][621]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2016.10.26-20.07.02:779][759]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2016.10.26-20.07.10:491][977]LogMaterial: 0.023389 seconds spent updating 1 materials, 1 interfaces, 1025 instances, 0 with static permutations.
+[2016.10.26-20.07.10:492][977]LogMaterial:Warning: Material /Game/ThirdPersonBP/Meshes/CubeMaterial.CubeMaterial needed to have new flag set bUsedWithLandscape !
+[2016.10.26-20.07.10:604][977]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2016.10.26-20.07.10:626][977]LogMaterial: 0.000447 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.26-20.07.11:485][978]Cmd: UpdateLandscapeEditorData
+[2016.10.26-20.07.11:497][978]Cmd: UpdateLandscapeMIC
+[2016.10.26-20.07.22:881][289]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2016.10.26-20.07.37:843][691]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Maps'
+[2016.10.26-20.07.44:102][894]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2016.10.26-20.09.00:931][116]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2016.10.26-20.09.07:290][290]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2016.10.26-20.09.09:433][329]LogMaterial: 0.029198 seconds spent updating 1 materials, 1 interfaces, 1025 instances, 0 with static permutations.
+[2016.10.26-20.09.09:433][329]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_AssetPlatform.M_AssetPlatform needed to have new flag set bUsedWithLandscape !
+[2016.10.26-20.09.09:610][329]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2016.10.26-20.09.09:656][329]LogMaterial: 0.000668 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.26-20.09.10:597][330]Cmd: UpdateLandscapeEditorData
+[2016.10.26-20.09.10:610][330]Cmd: UpdateLandscapeMIC
+[2016.10.26-20.11.37:451][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.10.26-20.11.56:545][677]LogSavePackage: Save=18905.992188ms
+[2016.10.26-20.11.56:545][677]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Untitled_1_Auto2CB2BE30D4BCAD46C518CA48D0797ACD1.tmp' to '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2016.10.26-20.11.56:560][677]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 19.109
+[2016.10.26-20.11.56:560][677]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 19.109
+[2016.10.26-20.11.56:602][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/CubeMaterial] ([1] browsable assets)...
+[2016.10.26-20.11.56:649][677]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Meshes/CubeMaterial.CubeMaterial]
+[2016.10.26-20.11.56:649][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/CubeMaterial]
+[2016.10.26-20.11.57:092][677]LogSavePackage: Save=427.069397ms
+[2016.10.26-20.11.57:093][677]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/CubeMaterial_Auto2506B3A64440E0704D616118D4AF4C5B9.tmp' to '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Autosaves/Game/ThirdPersonBP/Meshes/CubeMaterial_Auto2.uasset'
+[2016.10.26-20.11.57:145][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_AssetPlatform] ([1] browsable assets)...
+[2016.10.26-20.11.57:334][677]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_AssetPlatform.M_AssetPlatform]
+[2016.10.26-20.11.57:334][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_AssetPlatform]
+[2016.10.26-20.11.57:746][677]LogSavePackage: Save=394.956573ms
+[2016.10.26-20.11.57:747][677]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/M_AssetPlatform_Auto2BAE3968147514096EA897882E4E4687A.tmp' to '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Autosaves/Game/StarterContent/Materials/M_AssetPlatform_Auto2.uasset'
+[2016.10.26-20.11.57:758][677]LogFileHelpers: Auto-saving content packages took 1.199
+[2016.10.26-20.11.57:772][678]Cmd: UpdateLandscapeEditorData
+[2016.10.26-20.12.15:134][283]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.10.26-20.12.15:134][283]PIE: New page: PIE session: Untitled_1 (Oct 26, 2016, 12:12:15 PM)
+[2016.10.26-20.12.15:323][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186903s)
+[2016.10.26-20.12.15:323][283]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2016.10.26-20.12.15:324][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.188725s)
+[2016.10.26-20.12.15:367][283]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.26-20.12.15:374][283]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.26-20.12.15:574][283]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2016.10.26-16.12.15
+[2016.10.26-20.12.15:577][283]LogWorld: Bringing up level for play took: 0.202315
+[2016.10.26-20.12.15:597][283]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.448
+[2016.10.26-20.12.34:362][381]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E9000AF7E0
+[2016.10.26-20.13.19:808][939]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.10.26-20.13.19:808][939]PIE: New page: PIE session: Untitled_1 (Oct 26, 2016, 12:13:19 PM)
+[2016.10.26-20.13.19:981][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.172322s)
+[2016.10.26-20.13.19:983][939]LogPlayLevel: PIE: World Init took: (0.002215s)
+[2016.10.26-20.13.19:983][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.174752s)
+[2016.10.26-20.13.20:019][939]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.26-20.13.20:020][939]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.26-20.13.20:227][939]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2016.10.26-16.13.20
+[2016.10.26-20.13.20:229][939]LogWorld: Bringing up level for play took: 0.207868
+[2016.10.26-20.13.20:231][939]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.186
+[2016.10.26-20.13.25:468][223]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E9064671A0
+[2016.10.26-20.13.37:717][617]LogMaterial: 0.012548 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.26-20.13.38:334][618]Cmd: UpdateLandscapeEditorData
+[2016.10.26-20.13.38:343][618]Cmd: UpdateLandscapeMIC
+[2016.10.26-20.13.40:978][697]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.10.26-20.13.40:978][697]PIE: New page: PIE session: Untitled_1 (Oct 26, 2016, 12:13:40 PM)
+[2016.10.26-20.13.41:155][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176859s)
+[2016.10.26-20.13.41:158][697]LogPlayLevel: PIE: World Init took: (0.002910s)
+[2016.10.26-20.13.41:158][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.179972s)
+[2016.10.26-20.13.41:189][697]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.26-20.13.41:190][697]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.26-20.13.41:388][697]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2016.10.26-16.13.41
+[2016.10.26-20.13.41:391][697]LogWorld: Bringing up level for play took: 0.200066
+[2016.10.26-20.13.41:393][697]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.349
+[2016.10.26-20.13.52:198][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E91FC7E700
+[2016.10.26-20.15.18:262][905]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.26-20.15.18:263][905]Can't find target actor or component.
+[2016.10.26-20.15.19:043][939]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.26-20.15.19:044][939]Can't find target actor or component.
+[2016.10.26-20.15.19:228][947]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.26-20.15.19:228][947]Can't find target actor or component.
+[2016.10.26-20.15.19:432][956]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.26-20.15.19:433][956]Can't find target actor or component.
+[2016.10.26-20.15.20:652][  3]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.26-20.15.20:652][  3]Can't find target actor or component.
+[2016.10.26-20.15.22:574][ 84]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.26-20.16.10:808][654]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2016.10.26-20.16.11:158][662]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2016.10.26-20.16.11:516][671]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2016.10.26-20.16.15:799][814]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2016.10.26-20.18.23:168][330]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.10.26-20.18.23:168][330]PIE: New page: PIE session: Untitled_1 (Oct 26, 2016, 12:18:23 PM)
+[2016.10.26-20.18.23:358][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.189530s)
+[2016.10.26-20.18.23:359][330]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2016.10.26-20.18.23:359][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.190495s)
+[2016.10.26-20.18.23:392][330]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.26-20.18.23:394][330]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.26-20.18.23:605][330]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2016.10.26-16.18.23
+[2016.10.26-20.18.23:607][330]LogWorld: Bringing up level for play took: 0.213614
+[2016.10.26-20.18.23:611][330]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.434
+[2016.10.26-20.19.17:062][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E9000AD4E0
+[2016.10.26-20.19.23:295][695]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.23:295][695]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.23:388][695]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.23:416][695]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.23:444][695]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.23:541][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.23:541][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.23:772][696]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.23:786][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.23:802][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.23:802][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.23:802][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.24:046][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.24:059][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.24:060][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.24:060][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.24:241][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.24:253][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.24:254][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.24:254][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.24:279][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.24:296][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.24:297][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.24:297][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.24:401][696]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.24:413][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.24:430][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.24:430][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.24:430][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.24:601][696]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.24:614][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.24:630][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.24:631][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.24:631][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.24:808][696]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.24:820][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.24:838][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.24:839][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.24:839][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.25:015][696]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.25:028][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.25:045][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.25:046][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.25:046][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.25:210][696]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.25:223][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.25:224][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.25:224][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.25:314][696]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.25:326][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.25:327][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.25:327][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.25:416][696]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.25:429][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.25:448][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.25:449][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.25:449][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.25:679][696]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.25:693][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.25:711][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.25:712][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.25:712][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.26:029][696]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.26:043][696]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.26:062][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.26:063][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.26:063][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.26:407][696]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.26:423][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.27:640][735]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.27:641][735]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.27:711][735]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.27:749][735]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.28:261][749]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.28:261][749]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.28:322][749]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.28:345][749]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.28:477][754]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.28:477][754]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.28:733][754]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.28:750][754]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.28:750][754]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.28:750][754]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.29:096][754]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.29:109][754]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.29:126][754]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.29:127][754]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.29:127][754]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.29:461][754]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.29:474][754]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.29:492][754]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.29:492][754]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.29:492][754]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.29:791][754]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.29:803][754]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.31:193][799]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.31:193][799]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.31:263][799]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.31:297][799]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.31:752][815]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.31:752][815]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.31:820][815]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.31:853][815]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.32:121][825]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.32:121][825]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.32:356][825]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.32:374][825]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.32:441][829]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.32:441][829]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.32:712][829]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.32:725][829]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.32:742][829]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.32:775][831]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.32:775][831]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.33:113][831]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.33:126][831]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.33:143][831]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.33:144][831]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.33:144][831]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.33:549][831]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.33:567][831]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.33:568][831]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.33:568][831]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.33:864][831]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.33:882][831]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.33:897][831]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.33:898][831]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.33:898][831]LogEditorTransaction: Undo Edit Brush Size
+[2016.10.26-20.19.33:903][831]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.34:152][840]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.34:153][840]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.34:237][840]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.34:260][840]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.34:283][840]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.35:002][863]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.35:002][863]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.35:132][863]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.35:151][863]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.35:174][863]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.35:197][863]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.35:215][863]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.35:471][873]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.35:472][873]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.35:725][873]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.35:739][873]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.35:753][873]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.35:819][877]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.35:819][877]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.36:114][877]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.36:127][877]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.36:141][877]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.36:160][877]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.36:176][877]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.36:264][882]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.36:264][882]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.36:557][882]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.36:572][882]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.36:588][882]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.36:764][890]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.36:764][890]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.36:940][890]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.36:960][890]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.36:980][890]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.19.37:004][890]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.19.37:028][890]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.19.37:277][900]Cmd: TRANSACTION UNDO
+[2016.10.26-20.19.37:278][900]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.10.26-20.19.37:615][900]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.19.37:630][900]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.19.37:646][900]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.20.17:271][167]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.10.26-20.20.17:271][167]PIE: New page: PIE session: Untitled_1 (Oct 26, 2016, 12:20:17 PM)
+[2016.10.26-20.20.17:477][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.205221s)
+[2016.10.26-20.20.17:479][167]LogPlayLevel: PIE: World Init took: (0.001810s)
+[2016.10.26-20.20.17:479][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.207278s)
+[2016.10.26-20.20.17:514][167]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.26-20.20.17:516][167]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.26-20.20.17:725][167]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2016.10.26-16.20.17
+[2016.10.26-20.20.17:728][167]LogWorld: Bringing up level for play took: 0.211981
+[2016.10.26-20.20.17:731][167]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.315
+[2016.10.26-20.20.48:616][976]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E915666480
+[2016.10.26-20.21.15:933][913]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2016.10.26-20.21.21:752][125]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2016.10.26-20.21.27:660][276]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2016.10.26-20.21.40:557][682]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2016.10.26-20.21.42:684][747]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2016.10.26-20.21.43:732][784]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2016.10.26-20.21.44:911][818]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2016.10.26-20.21.45:555][834]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2016.10.26-20.21.47:274][881]LogActorFactory: Actor Factory created SM_Bush
+[2016.10.26-20.21.51:293][ 18]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2016.10.26-20.21.51:304][ 18]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 17 elements in 0.0s.
+[2016.10.26-20.21.51:304][ 18]LogStaticMesh:Display: Copied 17 transforms in 0.000s.
+[2016.10.26-20.21.51:304][ 18]LogMaterial:Warning: Material /Game/StarterContent/Props/Materials/M_Bush.M_Bush needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.10.26-20.21.51:311][ 18]LogMaterial: Missing cached shader map for material M_Bush, compiling. 
+[2016.10.26-20.21.51:402][ 18]LogMaterial: 0.000493 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.26-20.21.51:425][ 19]LogStaticMesh:Display: Built a foliage hierarchy with 17 of 19 elements in 0.1s.
+[2016.10.26-20.21.51:425][ 19]LogStaticMesh:Display: Copied 19 transforms in 0.000s.
+[2016.10.26-20.21.51:425][ 19]LogStaticMesh:Display: Built a foliage hierarchy with 19 of 19 elements in 0.0s.
+[2016.10.26-20.21.51:432][ 19]LogStaticMesh:Display: Copied 20 transforms in 0.000s.
+[2016.10.26-20.21.51:450][ 20]LogStaticMesh:Display: Built a foliage hierarchy with 20 of 21 elements in 0.0s.
+[2016.10.26-20.21.51:450][ 20]LogStaticMesh:Display: Copied 21 transforms in 0.000s.
+[2016.10.26-20.21.51:452][ 20]LogStaticMesh:Display: Built a foliage hierarchy with 21 of 21 elements in 0.0s.
+[2016.10.26-20.21.51:454][ 20]LogStaticMesh:Display: Copied 22 transforms in 0.000s.
+[2016.10.26-20.21.51:472][ 21]LogStaticMesh:Display: Built a foliage hierarchy with 22 of 22 elements in 0.0s.
+[2016.10.26-20.21.51:537][ 23]LogStaticMesh:Display: Copied 23 transforms in 0.000s.
+[2016.10.26-20.21.51:562][ 24]LogStaticMesh:Display: Built a foliage hierarchy with 23 of 25 elements in 0.0s.
+[2016.10.26-20.21.51:562][ 24]LogStaticMesh:Display: Copied 25 transforms in 0.000s.
+[2016.10.26-20.21.51:564][ 24]LogStaticMesh:Display: Built a foliage hierarchy with 25 of 25 elements in 0.0s.
+[2016.10.26-20.21.51:603][ 25]LogStaticMesh:Display: Copied 26 transforms in 0.000s.
+[2016.10.26-20.21.51:630][ 26]LogStaticMesh:Display: Built a foliage hierarchy with 26 of 28 elements in 0.0s.
+[2016.10.26-20.21.51:630][ 26]LogStaticMesh:Display: Copied 28 transforms in 0.000s.
+[2016.10.26-20.21.51:631][ 26]LogStaticMesh:Display: Built a foliage hierarchy with 28 of 28 elements in 0.0s.
+[2016.10.26-20.21.51:672][ 27]LogStaticMesh:Display: Copied 29 transforms in 0.000s.
+[2016.10.26-20.21.51:698][ 28]LogStaticMesh:Display: Built a foliage hierarchy with 29 of 35 elements in 0.0s.
+[2016.10.26-20.21.51:698][ 28]LogStaticMesh:Display: Copied 35 transforms in 0.000s.
+[2016.10.26-20.21.51:699][ 28]LogStaticMesh:Display: Built a foliage hierarchy with 35 of 35 elements in 0.0s.
+[2016.10.26-20.21.51:775][ 30]LogStaticMesh:Display: Copied 36 transforms in 0.000s.
+[2016.10.26-20.21.51:802][ 31]LogStaticMesh:Display: Built a foliage hierarchy with 36 of 37 elements in 0.0s.
+[2016.10.26-20.21.51:802][ 31]LogStaticMesh:Display: Copied 37 transforms in 0.000s.
+[2016.10.26-20.21.51:804][ 31]LogStaticMesh:Display: Built a foliage hierarchy with 37 of 37 elements in 0.0s.
+[2016.10.26-20.21.51:807][ 31]LogStaticMesh:Display: Copied 38 transforms in 0.000s.
+[2016.10.26-20.21.51:834][ 32]LogStaticMesh:Display: Built a foliage hierarchy with 38 of 44 elements in 0.0s.
+[2016.10.26-20.21.51:834][ 32]LogStaticMesh:Display: Copied 44 transforms in 0.000s.
+[2016.10.26-20.21.51:836][ 32]LogStaticMesh:Display: Built a foliage hierarchy with 44 of 44 elements in 0.0s.
+[2016.10.26-20.21.51:874][ 33]LogStaticMesh:Display: Copied 45 transforms in 0.000s.
+[2016.10.26-20.21.51:900][ 34]LogStaticMesh:Display: Built a foliage hierarchy with 45 of 47 elements in 0.0s.
+[2016.10.26-20.21.51:900][ 34]LogStaticMesh:Display: Copied 47 transforms in 0.000s.
+[2016.10.26-20.21.51:903][ 34]LogStaticMesh:Display: Built a foliage hierarchy with 47 of 47 elements in 0.0s.
+[2016.10.26-20.21.51:907][ 34]LogStaticMesh:Display: Copied 48 transforms in 0.000s.
+[2016.10.26-20.21.51:934][ 35]LogStaticMesh:Display: Built a foliage hierarchy with 48 of 48 elements in 0.0s.
+[2016.10.26-20.21.51:940][ 35]LogStaticMesh:Display: Copied 49 transforms in 0.000s.
+[2016.10.26-20.21.51:966][ 36]LogStaticMesh:Display: Built a foliage hierarchy with 49 of 51 elements in 0.0s.
+[2016.10.26-20.21.51:966][ 36]LogStaticMesh:Display: Copied 51 transforms in 0.000s.
+[2016.10.26-20.21.51:967][ 36]LogStaticMesh:Display: Built a foliage hierarchy with 51 of 51 elements in 0.0s.
+[2016.10.26-20.21.52:006][ 37]LogStaticMesh:Display: Copied 52 transforms in 0.000s.
+[2016.10.26-20.21.52:032][ 38]LogStaticMesh:Display: Built a foliage hierarchy with 52 of 57 elements in 0.0s.
+[2016.10.26-20.21.52:032][ 38]LogStaticMesh:Display: Copied 57 transforms in 0.000s.
+[2016.10.26-20.21.52:033][ 38]LogStaticMesh:Display: Built a foliage hierarchy with 57 of 57 elements in 0.0s.
+[2016.10.26-20.21.52:074][ 39]LogStaticMesh:Display: Copied 58 transforms in 0.000s.
+[2016.10.26-20.21.52:102][ 40]LogStaticMesh:Display: Built a foliage hierarchy with 58 of 60 elements in 0.0s.
+[2016.10.26-20.21.52:102][ 40]LogStaticMesh:Display: Copied 60 transforms in 0.000s.
+[2016.10.26-20.21.52:102][ 40]LogStaticMesh:Display: Built a foliage hierarchy with 60 of 60 elements in 0.0s.
+[2016.10.26-20.21.52:138][ 41]LogStaticMesh:Display: Copied 61 transforms in 0.000s.
+[2016.10.26-20.21.52:165][ 42]LogStaticMesh:Display: Built a foliage hierarchy with 61 of 71 elements in 0.0s.
+[2016.10.26-20.21.52:165][ 42]LogStaticMesh:Display: Copied 71 transforms in 0.000s.
+[2016.10.26-20.21.52:166][ 42]LogStaticMesh:Display: Built a foliage hierarchy with 71 of 71 elements in 0.0s.
+[2016.10.26-20.21.52:306][ 46]LogStaticMesh:Display: Copied 72 transforms in 0.000s.
+[2016.10.26-20.21.52:334][ 47]LogStaticMesh:Display: Built a foliage hierarchy with 72 of 84 elements in 0.0s.
+[2016.10.26-20.21.52:334][ 47]LogStaticMesh:Display: Copied 84 transforms in 0.000s.
+[2016.10.26-20.21.52:334][ 47]LogStaticMesh:Display: Built a foliage hierarchy with 84 of 84 elements in 0.0s.
+[2016.10.26-20.21.52:505][ 51]LogStaticMesh:Display: Copied 85 transforms in 0.000s.
+[2016.10.26-20.21.52:534][ 52]LogStaticMesh:Display: Built a foliage hierarchy with 85 of 89 elements in 0.0s.
+[2016.10.26-20.21.52:534][ 52]LogStaticMesh:Display: Copied 89 transforms in 0.000s.
+[2016.10.26-20.21.52:536][ 52]LogStaticMesh:Display: Built a foliage hierarchy with 89 of 89 elements in 0.0s.
+[2016.10.26-20.21.52:573][ 53]LogStaticMesh:Display: Copied 90 transforms in 0.000s.
+[2016.10.26-20.21.52:603][ 54]LogStaticMesh:Display: Built a foliage hierarchy with 90 of 90 elements in 0.0s.
+[2016.10.26-20.21.52:671][ 55]LogStaticMesh:Display: Copied 91 transforms in 0.000s.
+[2016.10.26-20.21.52:725][ 56]LogStaticMesh:Display: Built a foliage hierarchy with 91 of 95 elements in 0.1s.
+[2016.10.26-20.21.52:725][ 56]LogStaticMesh:Display: Copied 95 transforms in 0.000s.
+[2016.10.26-20.21.52:728][ 56]LogStaticMesh:Display: Built a foliage hierarchy with 95 of 95 elements in 0.0s.
+[2016.10.26-20.24.01:595][920]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.10.26-20.24.01:607][920]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.10.26-20.24.01:620][920]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.10.26-20.24.01:631][920]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.10.26-20.24.02:832][920]LogSavePackage: Save=1283.351074ms
+[2016.10.26-20.24.02:832][920]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Untitled_1_Auto3BA16C3694F2D0C4A3BD168BAB4A51869.tmp' to '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2016.10.26-20.24.02:842][920]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 1.396
+[2016.10.26-20.24.02:842][920]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.396
+[2016.10.26-20.24.02:880][920]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/Materials/M_Bush] ([1] browsable assets)...
+[2016.10.26-20.24.02:901][920]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/Materials/M_Bush.M_Bush]
+[2016.10.26-20.24.02:901][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/Materials/M_Bush]
+[2016.10.26-20.24.03:139][920]LogSavePackage: Save=220.373749ms
+[2016.10.26-20.24.03:139][920]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/M_Bush_Auto3E8AA93C94A7C61311DC97C9FF8B9D66C.tmp' to '../../../../../../Users/huange2/Documents/Unreal Projects/MyProjectTut/Saved/Autosaves/Game/StarterContent/Props/Materials/M_Bush_Auto3.uasset'
+[2016.10.26-20.24.03:150][920]LogFileHelpers: Auto-saving content packages took 0.308
+[2016.10.26-20.24.04:974][981]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.10.26-20.24.04:975][981]PIE: New page: PIE session: Untitled_1 (Oct 26, 2016, 12:24:04 PM)
+[2016.10.26-20.24.05:156][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180757s)
+[2016.10.26-20.24.05:157][981]LogPlayLevel: PIE: World Init took: (0.001389s)
+[2016.10.26-20.24.05:158][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.182351s)
+[2016.10.26-20.24.05:193][981]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.26-20.24.05:195][981]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.26-20.24.05:403][981]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2016.10.26-16.24.05
+[2016.10.26-20.24.05:406][981]LogWorld: Bringing up level for play took: 0.211172
+[2016.10.26-20.24.05:409][981]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.365
+[2016.10.26-20.24.15:898][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E91215C180
+[2016.10.26-20.24.18:180][650]LogStaticMesh:Display: Copied 96 transforms in 0.000s.
+[2016.10.26-20.24.18:188][650]LogStaticMesh:Display: Built a foliage hierarchy with 96 of 96 elements in 0.0s.
+[2016.10.26-20.24.18:190][650]LogStaticMesh:Display: Copied 97 transforms in 0.000s.
+[2016.10.26-20.24.18:211][651]LogStaticMesh:Display: Built a foliage hierarchy with 97 of 98 elements in 0.0s.
+[2016.10.26-20.24.18:211][651]LogStaticMesh:Display: Copied 98 transforms in 0.000s.
+[2016.10.26-20.24.18:212][651]LogStaticMesh:Display: Built a foliage hierarchy with 98 of 98 elements in 0.0s.
+[2016.10.26-20.24.18:560][664]LogStaticMesh:Display: Copied 99 transforms in 0.000s.
+[2016.10.26-20.24.18:586][665]LogStaticMesh:Display: Built a foliage hierarchy with 99 of 99 elements in 0.0s.
+[2016.10.26-20.24.19:001][679]LogStaticMesh:Display: Copied 100 transforms in 0.000s.
+[2016.10.26-20.24.19:022][680]LogStaticMesh:Display: Built a foliage hierarchy with 100 of 100 elements in 0.0s.
+[2016.10.26-20.24.19:831][708]LogStaticMesh:Display: Copied 101 transforms in 0.000s.
+[2016.10.26-20.24.19:855][709]LogStaticMesh:Display: Built a foliage hierarchy with 101 of 101 elements in 0.0s.
+[2016.10.26-20.24.21:034][750]LogStaticMesh:Display: Copied 102 transforms in 0.000s.
+[2016.10.26-20.24.21:059][751]LogStaticMesh:Display: Built a foliage hierarchy with 102 of 107 elements in 0.0s.
+[2016.10.26-20.24.21:060][751]LogStaticMesh:Display: Copied 107 transforms in 0.000s.
+[2016.10.26-20.24.21:061][751]LogStaticMesh:Display: Built a foliage hierarchy with 107 of 107 elements in 0.0s.
+[2016.10.26-20.24.21:097][752]LogStaticMesh:Display: Copied 108 transforms in 0.000s.
+[2016.10.26-20.24.21:123][753]LogStaticMesh:Display: Built a foliage hierarchy with 108 of 115 elements in 0.0s.
+[2016.10.26-20.24.21:123][753]LogStaticMesh:Display: Copied 115 transforms in 0.000s.
+[2016.10.26-20.24.21:125][753]LogStaticMesh:Display: Built a foliage hierarchy with 115 of 115 elements in 0.0s.
+[2016.10.26-20.24.21:887][778]LogStaticMesh:Display: Copied 116 transforms in 0.000s.
+[2016.10.26-20.24.21:912][779]LogStaticMesh:Display: Built a foliage hierarchy with 116 of 116 elements in 0.0s.
+[2016.10.26-20.24.21:966][781]LogStaticMesh:Display: Copied 117 transforms in 0.000s.
+[2016.10.26-20.24.21:992][782]LogStaticMesh:Display: Built a foliage hierarchy with 117 of 117 elements in 0.0s.
+[2016.10.26-20.24.21:995][782]LogStaticMesh:Display: Copied 118 transforms in 0.000s.
+[2016.10.26-20.24.22:019][783]LogStaticMesh:Display: Built a foliage hierarchy with 118 of 124 elements in 0.0s.
+[2016.10.26-20.24.22:019][783]LogStaticMesh:Display: Copied 124 transforms in 0.000s.
+[2016.10.26-20.24.22:021][783]LogStaticMesh:Display: Built a foliage hierarchy with 124 of 124 elements in 0.0s.
+[2016.10.26-20.24.22:303][793]LogStaticMesh:Display: Copied 125 transforms in 0.000s.
+[2016.10.26-20.24.22:326][794]LogStaticMesh:Display: Built a foliage hierarchy with 125 of 131 elements in 0.0s.
+[2016.10.26-20.24.22:326][794]LogStaticMesh:Display: Copied 131 transforms in 0.000s.
+[2016.10.26-20.24.22:329][794]LogStaticMesh:Display: Built a foliage hierarchy with 131 of 131 elements in 0.0s.
+[2016.10.26-20.24.22:330][794]LogStaticMesh:Display: Copied 132 transforms in 0.000s.
+[2016.10.26-20.24.22:354][795]LogStaticMesh:Display: Built a foliage hierarchy with 132 of 133 elements in 0.0s.
+[2016.10.26-20.24.22:354][795]LogStaticMesh:Display: Copied 133 transforms in 0.000s.
+[2016.10.26-20.24.22:355][795]LogStaticMesh:Display: Built a foliage hierarchy with 133 of 133 elements in 0.0s.
+[2016.10.26-20.24.22:490][799]LogStaticMesh:Display: Copied 134 transforms in 0.000s.
+[2016.10.26-20.24.22:514][800]LogStaticMesh:Display: Built a foliage hierarchy with 134 of 138 elements in 0.0s.
+[2016.10.26-20.24.22:514][800]LogStaticMesh:Display: Copied 138 transforms in 0.000s.
+[2016.10.26-20.24.22:516][800]LogStaticMesh:Display: Built a foliage hierarchy with 138 of 138 elements in 0.0s.
+[2016.10.26-20.24.22:879][812]LogStaticMesh:Display: Copied 139 transforms in 0.000s.
+[2016.10.26-20.24.22:900][813]LogStaticMesh:Display: Built a foliage hierarchy with 139 of 139 elements in 0.0s.
+[2016.10.26-20.24.24:458][861]LogStaticMesh:Display: Copied 140 transforms in 0.000s.
+[2016.10.26-20.24.24:464][861]LogStaticMesh:Display: Built a foliage hierarchy with 140 of 149 elements in 0.0s.
+[2016.10.26-20.24.24:464][861]LogStaticMesh:Display: Copied 149 transforms in 0.000s.
+[2016.10.26-20.24.24:506][862]LogStaticMesh:Display: Built a foliage hierarchy with 149 of 149 elements in 0.0s.
+[2016.10.26-20.24.24:598][864]LogStaticMesh:Display: Copied 150 transforms in 0.000s.
+[2016.10.26-20.24.24:640][865]LogStaticMesh:Display: Built a foliage hierarchy with 150 of 152 elements in 0.0s.
+[2016.10.26-20.24.24:640][865]LogStaticMesh:Display: Copied 152 transforms in 0.000s.
+[2016.10.26-20.24.24:642][865]LogStaticMesh:Display: Built a foliage hierarchy with 152 of 152 elements in 0.0s.
+[2016.10.26-20.24.25:420][889]LogStaticMesh:Display: Copied 153 transforms in 0.000s.
+[2016.10.26-20.24.25:444][890]LogStaticMesh:Display: Built a foliage hierarchy with 153 of 157 elements in 0.0s.
+[2016.10.26-20.24.25:444][890]LogStaticMesh:Display: Copied 157 transforms in 0.000s.
+[2016.10.26-20.24.25:445][890]LogStaticMesh:Display: Built a foliage hierarchy with 157 of 157 elements in 0.0s.
+[2016.10.26-20.24.25:538][893]LogStaticMesh:Display: Copied 158 transforms in 0.000s.
+[2016.10.26-20.24.25:558][894]LogStaticMesh:Display: Built a foliage hierarchy with 158 of 158 elements in 0.0s.
+[2016.10.26-20.24.25:630][896]LogStaticMesh:Display: Copied 159 transforms in 0.000s.
+[2016.10.26-20.24.25:649][897]LogStaticMesh:Display: Built a foliage hierarchy with 159 of 162 elements in 0.0s.
+[2016.10.26-20.24.25:649][897]LogStaticMesh:Display: Copied 162 transforms in 0.000s.
+[2016.10.26-20.24.25:651][897]LogStaticMesh:Display: Built a foliage hierarchy with 162 of 162 elements in 0.0s.
+[2016.10.26-20.24.25:662][897]LogStaticMesh:Display: Copied 163 transforms in 0.000s.
+[2016.10.26-20.24.25:685][898]LogStaticMesh:Display: Built a foliage hierarchy with 163 of 163 elements in 0.0s.
+[2016.10.26-20.24.26:094][911]LogStaticMesh:Display: Copied 164 transforms in 0.000s.
+[2016.10.26-20.24.26:118][912]LogStaticMesh:Display: Built a foliage hierarchy with 164 of 171 elements in 0.0s.
+[2016.10.26-20.24.26:118][912]LogStaticMesh:Display: Copied 171 transforms in 0.000s.
+[2016.10.26-20.24.26:121][912]LogStaticMesh:Display: Built a foliage hierarchy with 171 of 171 elements in 0.0s.
+[2016.10.26-20.24.26:186][914]LogStaticMesh:Display: Copied 172 transforms in 0.000s.
+[2016.10.26-20.24.26:206][915]LogStaticMesh:Display: Built a foliage hierarchy with 172 of 174 elements in 0.0s.
+[2016.10.26-20.24.26:206][915]LogStaticMesh:Display: Copied 174 transforms in 0.000s.
+[2016.10.26-20.24.26:208][915]LogStaticMesh:Display: Built a foliage hierarchy with 174 of 174 elements in 0.0s.
+[2016.10.26-20.24.27:382][953]LogStaticMesh:Display: Copied 175 transforms in 0.000s.
+[2016.10.26-20.24.27:402][954]LogStaticMesh:Display: Built a foliage hierarchy with 175 of 175 elements in 0.0s.
+[2016.10.26-20.24.27:746][964]LogStaticMesh:Display: Copied 176 transforms in 0.000s.
+[2016.10.26-20.24.27:769][965]LogStaticMesh:Display: Built a foliage hierarchy with 176 of 176 elements in 0.0s.
+[2016.10.26-20.24.27:773][965]LogStaticMesh:Display: Copied 177 transforms in 0.000s.
+[2016.10.26-20.24.27:795][966]LogStaticMesh:Display: Built a foliage hierarchy with 177 of 181 elements in 0.0s.
+[2016.10.26-20.24.27:795][966]LogStaticMesh:Display: Copied 181 transforms in 0.000s.
+[2016.10.26-20.24.27:797][966]LogStaticMesh:Display: Built a foliage hierarchy with 181 of 181 elements in 0.0s.
+[2016.10.26-20.24.29:994][ 37]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.10.26-20.24.29:995][ 37]PIE: New page: PIE session: Untitled_1 (Oct 26, 2016, 12:24:29 PM)
+[2016.10.26-20.24.30:181][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185601s)
+[2016.10.26-20.24.30:181][ 37]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2016.10.26-20.24.30:182][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.186329s)
+[2016.10.26-20.24.30:219][ 37]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.26-20.24.30:220][ 37]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.26-20.24.30:430][ 37]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2016.10.26-16.24.30
+[2016.10.26-20.24.30:433][ 37]LogWorld: Bringing up level for play took: 0.211338
+[2016.10.26-20.24.30:436][ 37]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.39
+[2016.10.26-20.24.36:734][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E92D94E8E0
+[2016.10.26-20.24.42:784][572]LogStaticMesh:Display: Copied 182 transforms in 0.000s.
+[2016.10.26-20.24.42:795][572]LogStaticMesh:Display: Built a foliage hierarchy with 182 of 198 elements in 0.0s.
+[2016.10.26-20.24.42:795][572]LogStaticMesh:Display: Copied 198 transforms in 0.000s.
+[2016.10.26-20.24.42:817][573]LogStaticMesh:Display: Built a foliage hierarchy with 198 of 198 elements in 0.0s.
+[2016.10.26-20.24.42:895][576]LogStaticMesh:Display: Copied 199 transforms in 0.000s.
+[2016.10.26-20.24.42:917][577]LogStaticMesh:Display: Built a foliage hierarchy with 199 of 199 elements in 0.0s.
+[2016.10.26-20.24.42:954][578]LogStaticMesh:Display: Copied 200 transforms in 0.000s.
+[2016.10.26-20.24.42:975][579]LogStaticMesh:Display: Built a foliage hierarchy with 200 of 201 elements in 0.0s.
+[2016.10.26-20.24.42:975][579]LogStaticMesh:Display: Copied 201 transforms in 0.000s.
+[2016.10.26-20.24.42:977][579]LogStaticMesh:Display: Built a foliage hierarchy with 201 of 201 elements in 0.0s.
+[2016.10.26-20.24.42:985][579]LogStaticMesh:Display: Copied 202 transforms in 0.000s.
+[2016.10.26-20.24.43:006][580]LogStaticMesh:Display: Built a foliage hierarchy with 202 of 207 elements in 0.0s.
+[2016.10.26-20.24.43:006][580]LogStaticMesh:Display: Copied 207 transforms in 0.000s.
+[2016.10.26-20.24.43:007][580]LogStaticMesh:Display: Built a foliage hierarchy with 207 of 207 elements in 0.0s.
+[2016.10.26-20.24.43:017][580]LogStaticMesh:Display: Copied 208 transforms in 0.000s.
+[2016.10.26-20.24.43:041][581]LogStaticMesh:Display: Built a foliage hierarchy with 208 of 214 elements in 0.0s.
+[2016.10.26-20.24.43:041][581]LogStaticMesh:Display: Copied 214 transforms in 0.000s.
+[2016.10.26-20.24.43:042][581]LogStaticMesh:Display: Built a foliage hierarchy with 214 of 214 elements in 0.0s.
+[2016.10.26-20.24.43:079][582]LogStaticMesh:Display: Copied 215 transforms in 0.000s.
+[2016.10.26-20.24.43:102][583]LogStaticMesh:Display: Built a foliage hierarchy with 215 of 218 elements in 0.0s.
+[2016.10.26-20.24.43:102][583]LogStaticMesh:Display: Copied 218 transforms in 0.000s.
+[2016.10.26-20.24.43:103][583]LogStaticMesh:Display: Built a foliage hierarchy with 218 of 218 elements in 0.0s.
+[2016.10.26-20.24.43:110][583]LogStaticMesh:Display: Copied 219 transforms in 0.000s.
+[2016.10.26-20.24.43:130][584]LogStaticMesh:Display: Built a foliage hierarchy with 219 of 227 elements in 0.0s.
+[2016.10.26-20.24.43:130][584]LogStaticMesh:Display: Copied 227 transforms in 0.000s.
+[2016.10.26-20.24.43:130][584]LogStaticMesh:Display: Built a foliage hierarchy with 227 of 227 elements in 0.0s.
+[2016.10.26-20.24.43:437][593]LogStaticMesh:Display: Copied 228 transforms in 0.000s.
+[2016.10.26-20.24.43:460][594]LogStaticMesh:Display: Built a foliage hierarchy with 228 of 231 elements in 0.0s.
+[2016.10.26-20.24.43:460][594]LogStaticMesh:Display: Copied 231 transforms in 0.000s.
+[2016.10.26-20.24.43:461][594]LogStaticMesh:Display: Built a foliage hierarchy with 231 of 231 elements in 0.0s.
+[2016.10.26-20.24.43:463][594]LogStaticMesh:Display: Copied 232 transforms in 0.000s.
+[2016.10.26-20.24.43:485][595]LogStaticMesh:Display: Built a foliage hierarchy with 232 of 235 elements in 0.0s.
+[2016.10.26-20.24.43:485][595]LogStaticMesh:Display: Copied 235 transforms in 0.000s.
+[2016.10.26-20.24.43:486][595]LogStaticMesh:Display: Built a foliage hierarchy with 235 of 235 elements in 0.0s.
+[2016.10.26-20.24.43:494][595]LogStaticMesh:Display: Copied 236 transforms in 0.000s.
+[2016.10.26-20.24.43:517][596]LogStaticMesh:Display: Built a foliage hierarchy with 236 of 241 elements in 0.0s.
+[2016.10.26-20.24.43:517][596]LogStaticMesh:Display: Copied 241 transforms in 0.000s.
+[2016.10.26-20.24.43:519][596]LogStaticMesh:Display: Built a foliage hierarchy with 241 of 241 elements in 0.0s.
+[2016.10.26-20.24.44:753][635]LogStaticMesh:Display: Copied 242 transforms in 0.000s.
+[2016.10.26-20.24.44:776][636]LogStaticMesh:Display: Built a foliage hierarchy with 242 of 244 elements in 0.0s.
+[2016.10.26-20.24.44:776][636]LogStaticMesh:Display: Copied 244 transforms in 0.000s.
+[2016.10.26-20.24.44:779][636]LogStaticMesh:Display: Built a foliage hierarchy with 244 of 244 elements in 0.0s.
+[2016.10.26-20.24.44:781][636]LogStaticMesh:Display: Copied 245 transforms in 0.000s.
+[2016.10.26-20.24.44:801][637]LogStaticMesh:Display: Built a foliage hierarchy with 245 of 249 elements in 0.0s.
+[2016.10.26-20.24.44:801][637]LogStaticMesh:Display: Copied 249 transforms in 0.000s.
+[2016.10.26-20.24.44:804][637]LogStaticMesh:Display: Built a foliage hierarchy with 249 of 249 elements in 0.0s.
+[2016.10.26-20.24.44:829][638]LogStaticMesh:Display: Copied 250 transforms in 0.000s.
+[2016.10.26-20.24.44:853][639]LogStaticMesh:Display: Built a foliage hierarchy with 250 of 251 elements in 0.0s.
+[2016.10.26-20.24.44:853][639]LogStaticMesh:Display: Copied 251 transforms in 0.000s.
+[2016.10.26-20.24.44:856][639]LogStaticMesh:Display: Built a foliage hierarchy with 251 of 251 elements in 0.0s.
+[2016.10.26-20.24.44:909][641]LogStaticMesh:Display: Copied 252 transforms in 0.000s.
+[2016.10.26-20.24.44:932][642]LogStaticMesh:Display: Built a foliage hierarchy with 252 of 253 elements in 0.0s.
+[2016.10.26-20.24.44:932][642]LogStaticMesh:Display: Copied 253 transforms in 0.000s.
+[2016.10.26-20.24.44:933][642]LogStaticMesh:Display: Built a foliage hierarchy with 253 of 253 elements in 0.0s.
+[2016.10.26-20.24.44:945][642]LogStaticMesh:Display: Copied 254 transforms in 0.000s.
+[2016.10.26-20.24.44:967][643]LogStaticMesh:Display: Built a foliage hierarchy with 254 of 257 elements in 0.0s.
+[2016.10.26-20.24.44:967][643]LogStaticMesh:Display: Copied 257 transforms in 0.000s.
+[2016.10.26-20.24.44:970][643]LogStaticMesh:Display: Built a foliage hierarchy with 257 of 257 elements in 0.0s.
+[2016.10.26-20.24.45:036][645]LogStaticMesh:Display: Copied 258 transforms in 0.000s.
+[2016.10.26-20.24.45:055][646]LogStaticMesh:Display: Built a foliage hierarchy with 258 of 259 elements in 0.0s.
+[2016.10.26-20.24.45:056][646]LogStaticMesh:Display: Copied 259 transforms in 0.000s.
+[2016.10.26-20.24.45:057][646]LogStaticMesh:Display: Built a foliage hierarchy with 259 of 259 elements in 0.0s.
+[2016.10.26-20.24.46:347][687]Cmd: TRANSACTION UNDO
+[2016.10.26-20.24.46:347][687]LogEditorTransaction: Undo Foliage Editing
+[2016.10.26-20.24.46:376][687]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2016.10.26-20.24.46:421][687]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.24.46:424][687]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 241 elements in 0.0s.
+[2016.10.26-20.24.46:424][687]LogStaticMesh:Display: Copied 241 transforms in 0.000s.
+[2016.10.26-20.24.46:427][687]LogStaticMesh:Display: Built a foliage hierarchy with 241 of 241 elements in 0.0s.
+[2016.10.26-20.24.46:673][693]Cmd: TRANSACTION UNDO
+[2016.10.26-20.24.46:673][693]LogEditorTransaction: Undo Foliage Editing
+[2016.10.26-20.24.46:699][693]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.24.46:895][696]Cmd: TRANSACTION UNDO
+[2016.10.26-20.24.46:895][696]LogEditorTransaction: Undo Foliage Editing
+[2016.10.26-20.24.46:915][696]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2016.10.26-20.24.46:953][696]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.24.46:953][696]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 227 elements in 0.0s.
+[2016.10.26-20.24.46:953][696]LogStaticMesh:Display: Copied 227 transforms in 0.000s.
+[2016.10.26-20.24.46:975][697]LogStaticMesh:Display: Built a foliage hierarchy with 227 of 227 elements in 0.0s.
+[2016.10.26-20.24.47:350][712]Cmd: TRANSACTION UNDO
+[2016.10.26-20.24.47:350][712]LogEditorTransaction: Undo Foliage Editing
+[2016.10.26-20.24.47:376][712]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2016.10.26-20.24.47:421][712]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.24.47:422][712]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 181 elements in 0.0s.
+[2016.10.26-20.24.47:422][712]LogStaticMesh:Display: Copied 181 transforms in 0.000s.
+[2016.10.26-20.24.47:452][713]LogStaticMesh:Display: Built a foliage hierarchy with 181 of 181 elements in 0.0s.
+[2016.10.26-20.24.47:769][725]Cmd: TRANSACTION UNDO
+[2016.10.26-20.24.47:769][725]LogEditorTransaction: Undo Foliage Editing
+[2016.10.26-20.24.47:793][725]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2016.10.26-20.24.47:836][725]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.24.47:836][725]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 175 elements in 0.0s.
+[2016.10.26-20.24.47:836][725]LogStaticMesh:Display: Copied 175 transforms in 0.000s.
+[2016.10.26-20.24.47:868][726]LogStaticMesh:Display: Built a foliage hierarchy with 175 of 175 elements in 0.0s.
+[2016.10.26-20.24.48:234][740]Cmd: TRANSACTION UNDO
+[2016.10.26-20.24.48:234][740]LogEditorTransaction: Undo Foliage Editing
+[2016.10.26-20.24.48:258][740]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2016.10.26-20.24.48:300][740]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.24.48:300][740]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 139 elements in 0.0s.
+[2016.10.26-20.24.48:300][740]LogStaticMesh:Display: Copied 139 transforms in 0.000s.
+[2016.10.26-20.24.48:333][741]LogStaticMesh:Display: Built a foliage hierarchy with 139 of 139 elements in 0.0s.
+[2016.10.26-20.24.48:660][754]Cmd: TRANSACTION UNDO
+[2016.10.26-20.24.48:660][754]LogEditorTransaction: Undo Foliage Editing
+[2016.10.26-20.24.48:689][754]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2016.10.26-20.24.48:731][754]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.24.48:731][754]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 115 elements in 0.0s.
+[2016.10.26-20.24.48:732][754]LogStaticMesh:Display: Copied 115 transforms in 0.000s.
+[2016.10.26-20.24.48:761][755]LogStaticMesh:Display: Built a foliage hierarchy with 115 of 115 elements in 0.0s.
+[2016.10.26-20.24.49:115][769]Cmd: TRANSACTION UNDO
+[2016.10.26-20.24.49:115][769]LogEditorTransaction: Undo Foliage Editing
+[2016.10.26-20.24.49:144][769]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2016.10.26-20.24.49:185][769]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.24.49:185][769]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 100 elements in 0.0s.
+[2016.10.26-20.24.49:185][769]LogStaticMesh:Display: Copied 100 transforms in 0.000s.
+[2016.10.26-20.24.49:214][770]LogStaticMesh:Display: Built a foliage hierarchy with 100 of 100 elements in 0.0s.
+[2016.10.26-20.24.49:539][783]Cmd: TRANSACTION UNDO
+[2016.10.26-20.24.49:539][783]LogEditorTransaction: Undo Foliage Editing
+[2016.10.26-20.24.49:564][783]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2016.10.26-20.24.49:606][783]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.24.49:607][783]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 99 elements in 0.0s.
+[2016.10.26-20.24.49:607][783]LogStaticMesh:Display: Copied 99 transforms in 0.000s.
+[2016.10.26-20.24.49:638][784]LogStaticMesh:Display: Built a foliage hierarchy with 99 of 99 elements in 0.0s.
+[2016.10.26-20.24.49:915][795]Cmd: TRANSACTION UNDO
+[2016.10.26-20.24.49:915][795]LogEditorTransaction: Undo Foliage Editing
+[2016.10.26-20.24.49:937][795]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2016.10.26-20.24.49:977][795]PIE:Warning: Warning AttachTo: '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Temp/Untitled_1.Untitled_1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2016.10.26-20.24.49:977][795]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 95 elements in 0.0s.
+[2016.10.26-20.24.49:977][795]LogStaticMesh:Display: Copied 95 transforms in 0.000s.
+[2016.10.26-20.24.50:009][796]LogStaticMesh:Display: Built a foliag
