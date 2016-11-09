@@ -1183,4 +1183,153 @@ Please see Output Log for details.
 [2016.11.09-16.56.32:537][247]LogInit: FAudioDevice initialized.
 [2016.11.09-16.56.32:581][247]LogWorld: Game class is 'ThirdPersonGameMode_C'
 [2016.11.09-16.56.32:715][247]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_worldtest.worldtest up for play (max tick rate 0) at 2016.11.09-11.56.32
-[2016.11.09-16.56.32:731][247]LogWorld: Bringing up level for play
+[2016.11.09-16.56.32:731][247]LogWorld: Bringing up level for play took: 0.146201
+[2016.11.09-16.56.32:733][247]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.09-16.56.32:733][247]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.09-16.56.32:733][247]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.09-16.56.32:734][247]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue from function: 'ExecuteUbergraph_MovementBluPrnt' from node: Result in graph: Transition in object: MovementBluPrnt with description: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+[2016.11.09-16.56.32:734][247]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_MovementBluPrnt' from node: Result in graph: Transition in object: MovementBluPrnt with description: Accessed None
+[2016.11.09-16.56.32:738][247]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.09-16.56.32:738][247]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_worldtest 0.221
+[2016.11.09-16.56.32:739][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-16.56.50:136][958]LogBlueprintUserMessages: [Inventory_C_0] Axe FOUND!
+[2016.11.09-16.56.51:367][  9]LogBlueprintUserMessages: [Inventory_C_0] Axe FOUND!
+[2016.11.09-16.56.53:692][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-16.56.53:787][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.04.58:312][697]LogSavePackage: Save=1272.61ms
+[2016.11.09-17.04.58:312][697]LogSavePackage: Moving 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/worldtestF9682CA643863C65A36FFBB57E95070D.tmp' to 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Scenes/worldtest.umap'
+[2016.11.09-17.04.58:322][697]LogSavePackage:Display: Finished SavePackage C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Scenes/worldtest.umap
+[2016.11.09-17.04.58:451][697]LogFileHelpers: Saving map 'worldtest' took 1.737
+[2016.11.09-17.04.58:471][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/baseItem" FILE="C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Scripts/baseItem.uasset" SILENT=true
+[2016.11.09-17.04.58:559][697]LogSavePackage: Save=61.90ms
+[2016.11.09-17.04.58:560][697]LogSavePackage: Moving 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/baseItem2DBC79BE432300556EEBC8943B3C8698.tmp' to 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Scripts/baseItem.uasset'
+[2016.11.09-17.04.58:569][697]LogSavePackage:Display: Finished SavePackage C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Scripts/baseItem.uasset
+[2016.11.09-17.12.43:907][951]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.12.43:907][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.09-17.12.43:908][951]PIE: New page: PIE session: worldtest (Nov 9, 2016, 7:12:43 AM)
+[2016.11.09-17.12.43:908][951]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_worldtest
+[2016.11.09-17.12.43:978][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069678s)
+[2016.11.09-17.12.43:980][951]LogAIModule: Creating AISystem for world worldtest
+[2016.11.09-17.12.43:981][951]LogPlayLevel: PIE: World Init took: (0.003089s)
+[2016.11.09-17.12.43:982][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/worldtest.worldtest to /Game/Scenes/UEDPIE_0_worldtest.worldtest (0.073476s)
+[2016.11.09-17.12.44:117][951]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.09-17.12.44:140][951]LogInit: FAudioDevice initialized.
+[2016.11.09-17.12.44:184][951]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.09-17.12.44:315][951]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_worldtest.worldtest up for play (max tick rate 0) at 2016.11.09-12.12.44
+[2016.11.09-17.12.44:334][951]LogWorld: Bringing up level for play took: 0.148778
+[2016.11.09-17.12.44:337][951]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.09-17.12.44:337][951]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.09-17.12.44:337][951]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.09-17.12.44:339][951]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue from function: 'ExecuteUbergraph_MovementBluPrnt' from node: Result in graph: Transition in object: MovementBluPrnt with description: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+[2016.11.09-17.12.44:339][951]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_MovementBluPrnt' from node: Result in graph: Transition in object: MovementBluPrnt with description: Accessed None
+[2016.11.09-17.12.44:345][951]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.09-17.12.44:345][951]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_worldtest -0.172
+[2016.11.09-17.12.44:346][951]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.12.52:947][269]LogBlueprintUserMessages: [Inventory_C_0] Axe FOUND!
+[2016.11.09-17.12.53:852][303]LogBlueprintUserMessages: [Inventory_C_0] Axe FOUND!
+[2016.11.09-17.12.56:942][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.12.57:067][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.13.32:009][574]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/Assets/Audio/itemPickup.wav)
+[2016.11.09-17.13.38:696][574]LogAudioDerivedData:Display: Building compressed audio format OGG wave itemPickup...
+[2016.11.09-17.13.38:746][574]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/itemPickup.itemPickup.
+[2016.11.09-17.13.40:487][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.13.40:488][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.09-17.13.40:488][613]PIE: New page: PIE session: worldtest (Nov 9, 2016, 7:13:40 AM)
+[2016.11.09-17.13.40:488][613]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_worldtest
+[2016.11.09-17.13.40:574][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086051s)
+[2016.11.09-17.13.40:577][613]LogAIModule: Creating AISystem for world worldtest
+[2016.11.09-17.13.40:578][613]LogPlayLevel: PIE: World Init took: (0.003252s)
+[2016.11.09-17.13.40:578][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/worldtest.worldtest to /Game/Scenes/UEDPIE_0_worldtest.worldtest (0.090030s)
+[2016.11.09-17.13.40:701][613]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.09-17.13.40:721][613]LogInit: FAudioDevice initialized.
+[2016.11.09-17.13.40:761][613]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.09-17.13.40:908][613]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_worldtest.worldtest up for play (max tick rate 0) at 2016.11.09-12.13.40
+[2016.11.09-17.13.40:930][613]LogWorld: Bringing up level for play took: 0.167298
+[2016.11.09-17.13.40:933][613]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.09-17.13.40:933][613]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.09-17.13.40:933][613]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.09-17.13.40:936][613]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue from function: 'ExecuteUbergraph_MovementBluPrnt' from node: Result in graph: Transition in object: MovementBluPrnt with description: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+[2016.11.09-17.13.40:936][613]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_MovementBluPrnt' from node: Result in graph: Transition in object: MovementBluPrnt with description: Accessed None
+[2016.11.09-17.13.40:942][613]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.09-17.13.40:942][613]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_worldtest 0.425
+[2016.11.09-17.13.40:943][613]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.13.51:353][ 19]LogBlueprintUserMessages: [Inventory_C_0] Axe FOUND!
+[2016.11.09-17.13.57:801][278]LogBlueprintUserMessages: [Inventory_C_0] Axe FOUND!
+[2016.11.09-17.13.58:683][313]LogBlueprintUserMessages: [Inventory_C_0] 2 Axe
+[2016.11.09-17.14.00:066][367]LogBlueprintUserMessages: [Inventory_C_0] 2 Axe
+[2016.11.09-17.14.06:437][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.14.06:558][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.17.26:395][819]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/worldtest' took 0.120
+[2016.11.09-17.17.26:399][819]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/BackgroundMusic] ([1] browsable assets)...
+[2016.11.09-17.17.26:399][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/BackgroundMusic]
+[2016.11.09-17.17.26:433][819]LogSavePackage: Save=20.04ms
+[2016.11.09-17.17.26:433][819]LogSavePackage: Moving 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/BackgroundMusic_Auto282FBA3AE4AB08D122D519C8742D940BD.tmp' to 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/Autosaves/Game/Audio/BackgroundMusic_Auto2.uasset'
+[2016.11.09-17.17.26:436][819]LogSavePackage:Display: Finished SavePackage C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/Autosaves/Game/Audio/BackgroundMusic_Auto2.uasset
+[2016.11.09-17.17.26:438][819]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/itemPickup] ([1] browsable assets)...
+[2016.11.09-17.17.26:481][819]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/itemPickup.itemPickup]
+[2016.11.09-17.17.26:481][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/itemPickup]
+[2016.11.09-17.17.26:568][819]LogSavePackage: Save=25.48ms
+[2016.11.09-17.17.26:568][819]LogSavePackage: Moving 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/itemPickup_Auto2ABFC41BF427A2AA19792CCBDA82F47A8.tmp' to 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/Autosaves/Game/Audio/itemPickup_Auto2.uasset'
+[2016.11.09-17.17.26:571][819]LogSavePackage:Display: Finished SavePackage C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/Autosaves/Game/Audio/itemPickup_Auto2.uasset
+[2016.11.09-17.17.26:571][819]LogFileHelpers: Auto-saving content packages took 0.175
+[2016.11.09-17.20.12:137][396]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/Assets/Audio/background_music.wav)
+[2016.11.09-17.20.12:748][396]LogAudioDerivedData:Display: Building compressed audio format OGG wave background_music...
+[2016.11.09-17.20.27:369][396]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/background_music.background_music.
+[2016.11.09-17.21.12:720][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/background_music" FILE="C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Audio/background_music.uasset" SILENT=true
+[2016.11.09-17.21.12:797][176]LogSavePackage: Save=72.91ms
+[2016.11.09-17.21.12:799][176]LogSavePackage: Moving 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/background_musicAB019EED42640744C13B76BD2E2BDAAA.tmp' to 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Audio/background_music.uasset'
+[2016.11.09-17.21.12:810][176]LogSavePackage:Display: Finished SavePackage C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Audio/background_music.uasset
+[2016.11.09-17.21.12:818][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/BGM" FILE="C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Audio/BGM.uasset" SILENT=true
+[2016.11.09-17.21.12:840][176]LogSavePackage: Save=17.32ms
+[2016.11.09-17.21.12:841][176]LogSavePackage: Moving 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/BGMB12B99554CBC006DF189729C92915B75.tmp' to 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Audio/BGM.uasset'
+[2016.11.09-17.21.12:850][176]LogSavePackage:Display: Finished SavePackage C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Audio/BGM.uasset
+[2016.11.09-17.21.12:858][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/itemPickup" FILE="C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Audio/itemPickup.uasset" SILENT=true
+[2016.11.09-17.21.12:898][176]LogSavePackage: Save=15.87ms
+[2016.11.09-17.21.12:898][176]LogSavePackage: Moving 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Saved/itemPickup0140D06043D52CC29494D2830CDEA383.tmp' to 'C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Audio/itemPickup.uasset'
+[2016.11.09-17.21.12:917][176]LogSavePackage:Display: Finished SavePackage C:/Users/Clarkn3/Desktop/projects/gameDev/dinosaurGame/UE Game/MyProjectTut 4.13/Content/Audio/itemPickup.uasset
+[2016.11.09-17.21.18:734][268]LogTexture:Display: Building textures: S_AudioComponent_AutoActivate (BGRA8)
+[2016.11.09-17.21.36:356][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.21.36:356][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.09-17.21.36:357][480]PIE: New page: PIE session: worldtest (Nov 9, 2016, 7:21:36 AM)
+[2016.11.09-17.21.36:359][480]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_worldtest
+[2016.11.09-17.21.36:431][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071733s)
+[2016.11.09-17.21.36:433][480]LogAIModule: Creating AISystem for world worldtest
+[2016.11.09-17.21.36:434][480]LogPlayLevel: PIE: World Init took: (0.002412s)
+[2016.11.09-17.21.36:434][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/worldtest.worldtest to /Game/Scenes/UEDPIE_0_worldtest.worldtest (0.074714s)
+[2016.11.09-17.21.36:550][480]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.09-17.21.36:571][480]LogInit: FAudioDevice initialized.
+[2016.11.09-17.21.36:614][480]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.09-17.21.36:743][480]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_worldtest.worldtest up for play (max tick rate 0) at 2016.11.09-12.21.36
+[2016.11.09-17.21.36:762][480]LogWorld: Bringing up level for play took: 0.146194
+[2016.11.09-17.21.36:765][480]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.09-17.21.36:765][480]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.09-17.21.36:765][480]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.09-17.21.36:767][480]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue from function: 'ExecuteUbergraph_MovementBluPrnt' from node: Result in graph: Transition in object: MovementBluPrnt with description: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+[2016.11.09-17.21.36:767][480]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_MovementBluPrnt' from node: Result in graph: Transition in object: MovementBluPrnt with description: Accessed None
+[2016.11.09-17.21.36:772][480]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.09-17.21.36:772][480]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_worldtest 0.255
+[2016.11.09-17.21.36:774][480]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.21.39:213][559]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.21.39:342][559]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.21.49:447][763]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.21.49:447][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.09-17.21.49:447][763]PIE: New page: PIE session: worldtest (Nov 9, 2016, 7:21:49 AM)
+[2016.11.09-17.21.49:449][763]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_worldtest
+[2016.11.09-17.21.49:524][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074279s)
+[2016.11.09-17.21.49:525][763]LogAIModule: Creating AISystem for world worldtest
+[2016.11.09-17.21.49:526][763]LogPlayLevel: PIE: World Init took: (0.002512s)
+[2016.11.09-17.21.49:527][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/worldtest.worldtest to /Game/Scenes/UEDPIE_0_worldtest.worldtest (0.077526s)
+[2016.11.09-17.21.49:630][763]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.09-17.21.49:649][763]LogInit: FAudioDevice initialized.
+[2016.11.09-17.21.49:694][763]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.09-17.21.49:824][763]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_worldtest.worldtest up for play (max tick rate 0) at 2016.11.09-12.21.49
+[2016.11.09-17.21.49:843][763]LogWorld: Bringing up level for play took: 0.147250
+[2016.11.09-17.21.49:846][763]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.09-17.21.49:846][763]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.09-17.21.49:846][763]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.09-17.21.49:848][763]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue from function: 'ExecuteUbergraph_MovementBluPrnt' from node: Result in graph: Transition in object: MovementBluPrnt with description: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+[2016.11.09-17.21.49:848][763]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_MovementBluPrnt' from node: Result in graph: Transition in object: MovementBluPrnt with description: Accessed None
+[2016.11.09-17.21.49:853][763]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.09-17.21.49:853][763]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_worldtest 1.336
+[2016.11.09-17.21.49:853][763]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/worldtest.worldtest:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest' with GeneratedClass '/Game/Scenes/worldtest.worldtest_C' with ClassGeneratedBy '/Game/Scenes/worldtest.worldtest:PersistentLevel.worldtest'
+[2016.11.09-17.22.08
